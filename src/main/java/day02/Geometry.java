@@ -6,5 +6,6 @@ public class Geometry {
         System.out.println("Side 'a' of the rectangle: " + rectangle.getaSide());
         System.out.println("Side 'b' of the rectangle: " + rectangle.getbSide());
         System.out.println("Area of the rectangle: " + rectangle.calculateArea(rectangle.getaSide(), rectangle.getbSide()));
+
     }
 }
