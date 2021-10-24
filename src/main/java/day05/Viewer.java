@@ -9,5 +9,6 @@ public class Viewer{
         Viewer viewer = new Viewer();
         Movie movie = new Movie("Pi", 1998);
         viewer.watchMovie(movie,4);
+        System.out.println(movie.getAvgOfRates());
     }
 }
